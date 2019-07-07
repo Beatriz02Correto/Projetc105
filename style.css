@@ -10,12 +10,12 @@ header{
     height: 75vh;
     justify-content: space-evenly;
 }
-h2{
+h1{
     font-family: 'Pacifico', cursive;
-    font-size: 75px;  
+    font-size: 5rem;  
 }
 
-h2 span#cor1 {color:white;}h2 span#cor2 {color:#2CBF60;
+h1 span#cor1 {color:white;}h1 span#cor2 {color:#2CBF60;
     font-size: 50pt;  
 }
 
@@ -38,10 +38,42 @@ header div nav a{
     background-color: #333333;
     border-radius: 50%;
     padding: 12px;
+    opacity: 0.5;
 }
-a:hover {
+header div nav a:hover {
     background-color: #2CBF60;
+    opacity: 1;
    }
+
+.section-option{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+.section-option div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-option div a{
+    align-items: center;
+    background-color: #2CBF60;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    opacity: 0.9;
+    padding: 20px;
+}
+.section-option div p{
+    color: rgb(56, 56, 56);
+    text-align: center;
+    font-size: 1.3rem;
+    width: 30vw;
+}
 
 footer nav{    
     width: 100%;
@@ -50,10 +82,9 @@ footer nav{
     padding: 3% 0%;
     background-color: #d4cccc;
 }
+
 footer nav a{
     display: flex;
     text-decoration: none;
     color: #726d6d;
 }
-
-
