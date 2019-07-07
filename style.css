@@ -56,6 +56,7 @@ header div nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Asap', sans-serif;
 }
 
 .section-option div a{
@@ -73,6 +74,7 @@ header div nav a:hover {
     text-align: center;
     font-size: 1.3rem;
     width: 30vw;
+    font-family: 'Asap', sans-serif;
 }
 
 footer nav{    
@@ -87,4 +89,31 @@ footer nav a{
     display: flex;
     text-decoration: none;
     color: #726d6d;
+    font-family: 'Asap', sans-serif;
 }
+nav {
+    color: #8a8787;
+    display: block;
+    width: 55%;
+    padding: 4% 22%;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    
+}
+h3{
+    color: black;
+}
+
+nav nav { 
+    display: flex;
+    justify-content: space-around;
+    
+}
+.pessoas{
+    padding: 0 1%;
+}
+.pessoas:hover{
+    opacity: 0.5;
+    background-color: #2CBF60;
+}
+
